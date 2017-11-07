@@ -25,7 +25,7 @@ object Interpreter extends App {
     Console println "------------------------- Ready. Enter code now. -----------------------"
     var line: String = ""
     do {
-      line = Console readLine()
+      line = scala.io.StdIn.readLine()
       builder.append(line).append("\n")
     } while (!line.contains("END"))
     builder.append(post)
