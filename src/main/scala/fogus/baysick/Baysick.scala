@@ -260,7 +260,7 @@ import scala.collection.mutable
           gotoLine(line + 10)
         }
         case Input(_, name) => {
-          val entry = readLine
+          val entry = scala.io.StdIn.readLine()
 
           // Temporary hack
           try {
