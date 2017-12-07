@@ -1,28 +1,28 @@
 /**
- * Copyright (c) 2010-2014 Michael Fogus, http://www.fogus.me
- *
- * Licensed under The MIT License
- * Re-distributions of files must retain the above copyright notice.
- *
- * #######        ##      ##    ##    ######     ####     ######     ##   ##
- * ##    ##      ####      ##  ##    ##           ##     ##    ##    ##  ##
- * #######      ##  ##       ##       ######      ##     ##          ####
- * ##    ##    ########      ##            ##     ##     ##    ##    ##  ##
- * #######    ##      ##     ##       ######     ####     ######     ##   ##
- **/
+  * Copyright (c) 2010-2014 Michael Fogus, http://www.fogus.me
+  *
+  * Licensed under The MIT License
+  * Re-distributions of files must retain the above copyright notice.
+  *
+  * #######        ##      ##    ##    ######     ####     ######     ##   ##
+  * ##    ##      ####      ##  ##    ##           ##     ##    ##    ##  ##
+  * #######      ##  ##       ##       ######      ##     ##          ####
+  * ##    ##    ########      ##            ##     ##     ##    ##    ##  ##
+  * #######    ##      ##     ##       ######     ####     ######     ##   ##
+  **/
 
 import fogus.baysick.Baysick
 import org.scalatest.FlatSpec
 
 /**
- * Tests for Baysick.
- * TODO implement tests that actually check output and input.
- */
+  * Tests for Baysick.
+  * TODO implement tests that actually check output and input.
+  */
 class BaysickTests extends FlatSpec {
 
   /**
-   * TODO test input
-   */
+    * TODO test input
+    */
   ignore should "print the square root " in {
     object SquareRoot extends Baysick {
       def run() = {
@@ -73,8 +73,8 @@ class BaysickTests extends FlatSpec {
   }
 
   /**
-   * TODO test input
-   */
+    * TODO test input
+    */
   ignore should "say hello" in {
     object HelloName extends Baysick {
       def run() = {
@@ -145,9 +145,9 @@ class BaysickTests extends FlatSpec {
   }
 
   /**
-   * Lunar only works with Console I/O.
-   * TODO have to figure testing that one out.
-   */
+    * Lunar only works with Console I/O.
+    * TODO have to figure testing that one out.
+    */
   ignore should "fly to the moon" in {
     object Lunar extends Baysick {
       def run() = {
